@@ -1,19 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.API", "InventoryManager.API\InventoryManager.API.csproj", "{BE7F9E17-AC3D-4F00-96D9-FF95B7F1DACB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF10D7F5-76B8-4342-8C6B-6C5A242ECFD6}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.Application", "InventoryManager.Application\InventoryManager.Application.csproj", "{E6E0A24A-8B73-4E71-8C7E-CC1442CD2756}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventProducer", "EventProducer\EventProducer.csproj", "{41CFDA53-909A-4D1B-86BB-23D443AE1BD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryService.Infrastructure", "InventoryService.Infrastructure\InventoryService.Infrastructure.csproj", "{EFD97558-70D5-4A49-B672-3F9BDE40A9FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.UnitTest", "InventoryManager.UnitTest\InventoryManager.UnitTest.csproj", "{E37F567E-D52F-47A8-988F-EFACFB16FE37}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManager.Domain", "InventoryManager.Domain\InventoryManager.Domain.csproj", "{99A98E3F-ABBD-492B-B530-E3CFEE1030EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventReplay", "EventReplay\EventReplay.csproj", "{EE997286-6CE8-4C26-B772-46B09EE94E32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +35,14 @@ Global
 		{99A98E3F-ABBD-492B-B530-E3CFEE1030EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A98E3F-ABBD-492B-B530-E3CFEE1030EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A98E3F-ABBD-492B-B530-E3CFEE1030EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41CFDA53-909A-4D1B-86BB-23D443AE1BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41CFDA53-909A-4D1B-86BB-23D443AE1BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41CFDA53-909A-4D1B-86BB-23D443AE1BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41CFDA53-909A-4D1B-86BB-23D443AE1BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE997286-6CE8-4C26-B772-46B09EE94E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE997286-6CE8-4C26-B772-46B09EE94E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE997286-6CE8-4C26-B772-46B09EE94E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE997286-6CE8-4C26-B772-46B09EE94E32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
